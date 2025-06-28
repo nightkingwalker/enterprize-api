@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use Illuminate\Http\Request;
 use App\Models\ClientEmployee;
 use App\Http\Resources\ClientEmployeeResource;
 use App\Http\Requests\StoreClientEmployeeRequest;

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use Illuminate\Http\Request;
 use App\Models\Segment;
 use App\Http\Resources\SegmentResource;
 use App\Http\Requests\StoreSegmentRequest;

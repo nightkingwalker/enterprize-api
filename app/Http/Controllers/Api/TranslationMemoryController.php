@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use Illuminate\Http\Request;
 use App\Models\TranslationMemory;
 use App\Http\Resources\TranslationMemoryResource;
 use App\Http\Requests\StoreTranslationMemoryRequest;
