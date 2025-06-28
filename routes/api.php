@@ -16,7 +16,7 @@ use App\Http\Controllers\Api\AuthController;
 Route::get('/test', function () {
     return response()->json(['message' => 'API is working']);
 });
-Route::prefix('v1.24')->group(function () {
+Route::prefix('v1.24')->middleware('api')->group(function () {
     // Authentication routes
     Route::post('login', [AuthController::class, 'login'])->name('login');
     Route::post('register', [AuthController::class, 'register']);
